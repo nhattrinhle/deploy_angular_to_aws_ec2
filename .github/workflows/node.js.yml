@@ -30,7 +30,7 @@ jobs:
     - name: npm Install
       run: npm install
     - name: npm Build Angular
-      run: npm build
+      run: npm run build
     - name: Deploy to EC2 Instance
       uses: easingthemes/ssh-deploy@v4.1.0
       with: 
